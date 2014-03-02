@@ -1,0 +1,31 @@
+# gitconfig
+#
+[alias]
+        co = checkout
+        count   = shortlog -sn
+	lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative --graph
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        excludesfile = ~/.gitignore
+        editor = nano
+	autocrlf = input
+[apply]
+        whitespace = nowarn
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
+[help]
+        autocorrect = 1
+[push]
+        default = simple
+[pack]
+	threads = 4
+[include]
+	# For usernames, tokens and credential
+	path = $ZSH/gitconfig.local
+

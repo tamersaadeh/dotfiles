@@ -1,0 +1,5 @@
+# Ignore custom gitconfig settings (usernames)
+git/gitconfig.local.symlink
+
+# Ignore OSX
+.DS_Store
