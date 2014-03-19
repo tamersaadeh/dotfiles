@@ -15,6 +15,14 @@ cd ~/.dotfiles
 script/bootstrap
 ```
 
+## TODO
+
+* Add the rest of the bash scripts
+* OSX/Linux specifics
+* Android SDK/NDK install
+* Macports scripts
+* Development tools
+
 ## thanks
 
 I forked [Zach Holman](https://github.com/holman)'s great [dotfiles](https://github.com/holman/dotfiles), which is originally on [Ryan Bates](https://github.com/ryanb)' [dotfiles](https://github.com/ryanb/dotfiles). Most of the code is inspired by the "topical" approach that Holman uses.
