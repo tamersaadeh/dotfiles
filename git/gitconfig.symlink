@@ -2,8 +2,9 @@
 #
 [alias]
         co = checkout
-        count   = shortlog -sn
+        count = shortlog -sn
 	lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative --graph
+	stat = status
 [color]
         diff = auto
         status = auto
@@ -27,5 +28,5 @@
 	threads = 4
 [include]
 	# For usernames, tokens and credential
-	path = $ZSH/gitconfig.local
+	path = $__DOTFILES__/gitconfig.local
 
