@@ -1,0 +1,6 @@
+# ignore all files as they are empty
+*
+
+# add the placeholder and gitignore
+!.placeholder
+!.gitignore
