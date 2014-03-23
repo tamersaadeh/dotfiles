@@ -31,7 +31,7 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-source ~/.colors
+source "$__DOTFILES__/bash/.colors"
 
 # set PS1
 PS1="\[$Red\]"'$(time_now)'" \[$Color_Reset\]${debian_chroot:+($debian_chroot)}\[$BGreen\]\u\[$Red\]@\[$BBlack\]\h\[$Yellow\]:\[$BBlue\]\w\[$BGreen\]"'$(parse_git_branch)'"\[$BBlue\]✈\[$Color_Reset\] "
