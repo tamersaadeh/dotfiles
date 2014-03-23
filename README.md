@@ -22,6 +22,7 @@ script/bootstrap
 * Android SDK/NDK install
 * Macports scripts
 * Development tools
+* Backup and restore scripts
 
 ## thanks
 
