@@ -3,6 +3,9 @@
 # To change the MAC Address
 alias change_mac='$__DOTFILES__/bin/change_mac.sh'
 
+# Emulates smbencyrpt
+alias smbencyrpt='python $__DOTFILES__/bin/smbencyrpt.py'
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
