@@ -2,7 +2,7 @@
 
 ## dotfiles
 
-I have reused some of the scripts and dot files create by [Zach Holman](https://github.com/holman/dotfiles). The main differences are that I use bash as my main shell instead of zsh and macport instead of homebrew so many files have been dropped to replace both.
+I have based my dotfiles on scripts by [Zach Holman](https://github.com/holman/dotfiles). However, most of the scripts and dot files have been rewritten from scratch or slightly modified because I use bash and MacPorts instead of zsh and homebrew, respectively.
 
 ## install
 
