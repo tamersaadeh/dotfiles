@@ -3,9 +3,9 @@
 # This is rebased on the code from (not the holman version):
 #   https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
-# Show icons for hard drives, servers, and removable media on the desktop
+# Show icons for external hard drives, servers, and removable media on the desktop
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
