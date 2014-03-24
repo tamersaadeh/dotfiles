@@ -14,7 +14,7 @@ if [ $OSX ]; then
     OLD_ADDR=`ifconfig $interface | grep ether | cut -f2 | cut -d" " -f2`
 fi
 
-if [ -z "$1" ]; then
+if [ ! -z "$1" ]; then
     interface="$1"
 fi
 
