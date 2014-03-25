@@ -1,7 +1,7 @@
 # Aliases that make my life a bit easier
 
 # To change the MAC Address
-alias change_mac='$__DOTFILES__/bin/change_mac.sh'
+alias change_mac='bash $__DOTFILES__/bin/change_mac.sh'
 
 # Emulates smbencyrpt
 alias smbencyrpt='python $__DOTFILES__/bin/smbencyrpt.py'
