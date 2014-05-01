@@ -1,0 +1,26 @@
+# bashrc 
+
+# expose the dotfiles path
+# TODO: make it configurable
+export __DOTFILES__="~/.dotfiles"
+
+# If not running interactively, don't do anything
+[ -z "$PS1" ] && return
+
+. "$__DOTFILES__/bash/vars.sh"
+. "$__DOTFILES__/bash/path.sh"
+. "$__DOTFILES__/bash/history.sh"
+. "$__DOTFILES__/bash/command_line_style.sh"
+. "$__DOTFILES__/bash/aliases.sh"
+
+# enable programmable completion features
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
+# enable git completion
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+
